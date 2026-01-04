@@ -1,0 +1,25 @@
+[project]
+name = "life-coach"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "gradio>=6.2.0",
+    "langchain-community",
+    "langchain-google-genai",
+    "langchain-core",
+    "langchain-text-splitters",
+    "pgvector>=0.4.2",
+    "psycopg2>=2.9.11",
+    "psycopg2-binary>=2.9.11",
+    "pydantic-settings>=2.12.0",
+    "pypdf>=6.5.0",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.1",
+    "python-multipart>=0.0.21",
+    "sqlalchemy>=2.0.45",
+    "supabase>=2.27.0",
+    "uvicorn>=0.40.0",
+]
